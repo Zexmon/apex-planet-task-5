@@ -20,7 +20,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
           <div className="text-center md:text-left">
-            <h3 className="text-xl font-bold text-gradient mb-4">Alex Portfolio</h3>
+            <h3 className="text-xl font-bold text-gradient mb-4">Ashu Portfolio</h3>
             <p className="text-muted-foreground mb-4">
               Crafting digital experiences with passion and precision.
             </p>
@@ -68,9 +68,9 @@ const Footer = () => {
           <div className="text-center md:text-right">
             <h4 className="font-semibold mb-4">Get In Touch</h4>
             <div className="space-y-2 text-muted-foreground">
-              <p>alex@example.com</p>
-              <p>+1 (555) 123-4567</p>
-              <p>San Francisco, CA</p>
+              <p>ashu@gmail.com</p>
+              <p>983531****</p>
+              <p>Gurugram, India</p>
             </div>
             <Button
               onClick={scrollToTop}
@@ -89,7 +89,7 @@ const Footer = () => {
             <p className="flex items-center">
               Made with <Heart className="h-4 w-4 text-red-500 mx-1" /> using React & TypeScript
             </p>
-            <p>&copy; {currentYear} Alex Portfolio. All rights reserved.</p>
+            <p>&copy; {currentYear} Ashu Portfolio. All rights reserved.</p>
           </div>
         </div>
       </div>
